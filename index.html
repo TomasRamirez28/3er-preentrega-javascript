@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrenamiento Personalizado</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 20px; }
+        h1 { color: #333; }
+        .container { max-width: 800px; margin: auto; }
+        .paquetes, .carrito { margin-top: 20px; }
+        .paquete, .carrito-item { border: 1px solid #ccc; padding: 10px; margin-bottom: 10px; border-radius: 5px; }
+        .btn { background-color: #007BFF; color: white; padding: 5px 10px; border: none; border-radius: 5px; cursor: pointer; }
+        .btn:hover { background-color: #0056b3; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Paquetes de Entrenamiento Personalizado</h1>
+        <p>¡Elige el paquete de entrenamiento que mejor se ajuste a tu nivel!</p>
+        
+        <!-- Sección de Paquetes -->
+        <div class="paquetes">
+            <h2>Paquetes disponibles</h2>
+            <div id="paquetes-container"></div>
+        </div>
+
+        <!-- Filtros -->
+        <div class="filtros">
+            <h2>Filtrar paquetes por precio</h2>
+            <label for="minPrecio">Precio mínimo:</label>
+            <input type="number" id="minPrecio">
+            <label for="maxPrecio">Precio máximo:</label>
+            <input type="number" id="maxPrecio">
+            <button class="btn" id="filtrarPaquetesBtn">Filtrar</button>
+        </div>
+
+        <!-- Carrito -->
+        <div class="carrito">
+            <h2>Carrito de Compras</h2>
+            <div id="carrito-container"></div>
+            <button class="btn" id="vaciarCarritoBtn">Vaciar carrito</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
