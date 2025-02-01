@@ -1,0 +1,18 @@
+[
+    {
+      "nivel": "Principiante",
+      "precio": 10000,
+      "descripcion": "Conceptos básicos como posicionamiento y manejo del balón."
+    },
+    {
+      "nivel": "Intermedio",
+      "precio": 15000,
+      "descripcion": "Estrategias de rotación, control aéreo, y tiros avanzados."
+    },
+    {
+      "nivel": "Avanzado",
+      "precio": 20000,
+      "descripcion": "Técnicas de flip resets, ceiling shots y jugadas en equipo."
+    }
+  ]
+  
